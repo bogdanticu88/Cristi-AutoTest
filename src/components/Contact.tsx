@@ -25,7 +25,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-white font-semibold mb-1">Adresă</p>
-                  <p className="text-slate-400">Str. Castanilor, 615200 Târgu Neamț, România</p>
+                  <a href="https://maps.app.goo.gl/Ff6eJMKPTeHgDxFC8" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-blue-500 transition-colors block">Str. Castanilor, 615200 Târgu Neamț, România</a>
                 </div>
               </div>
               
