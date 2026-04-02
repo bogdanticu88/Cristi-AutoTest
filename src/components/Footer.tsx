@@ -28,7 +28,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-slate-400">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                <a href="https://maps.app.goo.gl/Ff6eJMKPTeHgDxFC8" target="_blank" rel="noreferrer" className="hover:text-blue-500 transition-colors">Str. Castanilor, 615200 Târgu Neamț, România</a>
+                <a href="https://maps.app.goo.gl/Ff6eJMKPTeHgDxFC8" target="_blank" rel="noreferrer" className="hover:text-blue-500 transition-colors">Bulevardul Ștefan cel Mare 190, 615200 Târgu Neamț, România</a>
               </li>
               <li className="flex items-center gap-3 text-slate-400">
                 <Phone className="w-5 h-5 text-blue-500 shrink-0" />
