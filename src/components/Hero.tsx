@@ -38,7 +38,7 @@ export default function Hero() {
           
           <FadeIn delay={0.4}>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:+40700000000" className="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-xl shadow-blue-900/20 hover:shadow-blue-900/40">
+              <a href="tel:+40758286536" className="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-semibold transition-all shadow-xl shadow-blue-900/20 hover:shadow-blue-900/40">
                 Sună Pentru Programare
                 <ArrowRight className="w-5 h-5" />
               </a>

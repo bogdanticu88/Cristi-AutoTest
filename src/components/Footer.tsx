@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone, Clock, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -28,25 +28,29 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-slate-400">
                 <MapPin className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                <span>Bulevardul Ștefan cel Mare 190, 615200 Târgu Neamț</span>
+                <span>Str. Castanilor, 615200 Târgu Neamț, România</span>
               </li>
-              <li className="flex items-start gap-3 text-slate-400">
-                <Phone className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
-                <span>+40 700 000 000</span>
+              <li className="flex items-center gap-3 text-slate-400">
+                <Phone className="w-5 h-5 text-blue-500 shrink-0" />
+                <a href="tel:+40758286536" className="hover:text-blue-500 transition-colors">0758 286 536</a>
+              </li>
+              <li className="flex items-center gap-3 text-slate-400">
+                <Mail className="w-5 h-5 text-blue-500 shrink-0" />
+                <a href="mailto:alexcristian2005@yahoo.com" className="hover:text-blue-500 transition-colors">alexcristian2005@yahoo.com</a>
               </li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-white font-semibold mb-4">Program</h3>
+            <h4 className="text-white font-bold mb-6">Program</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-slate-400">
                 <Clock className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
                 <div className="text-sm">
-                  <p>Luni - Miercuri: 09:00 - 22:00</p>
-                  <p>Joi - Vineri: 09:00 - 22:30</p>
-                  <p>Sâmbătă: 09:00 - 19:00</p>
-                  <p>Duminică: 09:00 - 22:00</p>
+                  <p>Luni - Miercuri: 09:00 - 20:00</p>
+                  <p>Joi - Vineri: 09:00 - 19:00</p>
+                  <p>Sâmbătă: 09:00 - 17:00</p>
+                  <p>Duminică: Închis</p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-slate-400">

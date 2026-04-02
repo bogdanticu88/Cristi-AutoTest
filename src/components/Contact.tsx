@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, Phone, Clock } from 'lucide-react';
+import { MapPin, Phone, Clock, Mail } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -19,37 +19,47 @@ export default function Contact() {
           <div className="bg-slate-900 rounded-3xl p-8 border border-slate-800 shadow-xl">
             <h4 className="text-2xl font-bold text-white mb-6">Informații de Contact</h4>
             <div className="space-y-6 mb-8">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0 border border-blue-500/20">
-                  <MapPin className="w-6 h-6 text-blue-500" />
+              <div className="flex items-start gap-6">
+                <div className="w-14 h-14 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center shrink-0">
+                  <MapPin className="w-7 h-7 text-blue-500" />
                 </div>
                 <div>
                   <p className="text-white font-semibold mb-1">Adresă</p>
-                  <p className="text-slate-400">Bulevardul Ștefan cel Mare 190, 615200 Târgu Neamț, România</p>
+                  <p className="text-slate-400">Str. Castanilor, 615200 Târgu Neamț, România</p>
                 </div>
               </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0 border border-blue-500/20">
-                  <Phone className="w-6 h-6 text-blue-500" />
+              
+              <div className="flex items-start gap-6">
+                <div className="w-14 h-14 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center shrink-0">
+                  <Phone className="w-7 h-7 text-blue-500" />
                 </div>
                 <div>
                   <p className="text-white font-semibold mb-1">Telefon / Tractări 24/7</p>
-                  <a href="tel:+40700000000" className="text-slate-400 hover:text-blue-500 transition-colors font-medium tracking-wide">+40 700 000 000</a>
+                  <a href="tel:+40758286536" className="text-slate-400 hover:text-blue-500 transition-colors block">0758 286 536</a>
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center shrink-0 border border-blue-500/20">
-                  <Clock className="w-6 h-6 text-blue-500" />
+              <div className="flex items-start gap-6">
+                <div className="w-14 h-14 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center shrink-0">
+                  <Mail className="w-7 h-7 text-blue-500" />
+                </div>
+                <div>
+                  <p className="text-white font-semibold mb-1">Email</p>
+                  <a href="mailto:alexcristian2005@yahoo.com" className="text-slate-400 hover:text-blue-500 transition-colors block">alexcristian2005@yahoo.com</a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-6">
+                <div className="w-14 h-14 rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center shrink-0">
+                  <Clock className="w-7 h-7 text-blue-500" />
                 </div>
                 <div>
                   <p className="text-white font-semibold mb-1">Program Funcționare</p>
                   <ul className="text-slate-400 space-y-1 text-sm">
-                    <li>Luni - Miercuri: 09:00 - 22:00</li>
-                    <li>Joi - Vineri: 09:00 - 22:30</li>
-                    <li>Sâmbătă: 09:00 - 19:00</li>
-                    <li>Duminică: 09:00 - 22:00</li>
+                    <li>Luni - Miercuri: 09:00 - 20:00</li>
+                    <li>Joi - Vineri: 09:00 - 19:00</li>
+                    <li>Sâmbătă: 09:00 - 17:00</li>
+                    <li>Duminică: Închis</li>
                   </ul>
                 </div>
               </div>
