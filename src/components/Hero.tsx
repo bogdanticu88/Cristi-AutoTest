@@ -9,9 +9,9 @@ export default function Hero() {
       {/* Background Image and Overlays */}
       <div className="absolute inset-0 z-0">
          <Image src="/Cristi-AutoTest/hero.jpeg" alt="Cristi AutoTest Background" fill className="object-cover" priority />
-         {/* Dark overlay ensuring text remains completely legible */}
-         <div className="absolute inset-0 bg-slate-950/85 bg-gradient-to-tr from-slate-950 via-slate-900/80 to-slate-950/90 z-10" />
-         <div className="absolute inset-0 opacity-20 z-10" 
+         {/* Subtle dark overlay ensuring text remains legible while showcasing the image */}
+         <div className="absolute inset-0 bg-slate-950/40 bg-gradient-to-tr from-slate-950/60 via-slate-900/20 to-slate-950/60 z-10" />
+         <div className="absolute inset-0 opacity-10 z-10" 
               style={{ backgroundImage: `radial-gradient(#3b82f6 1px, transparent 1px)`, backgroundSize: '32px 32px' }} />
       </div>
 
