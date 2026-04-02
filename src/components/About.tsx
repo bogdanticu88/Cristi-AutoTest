@@ -19,7 +19,7 @@ export default function About() {
             <FadeIn delay={0.2} className="relative z-10 w-full rounded-3xl overflow-hidden aspect-square md:aspect-video lg:aspect-square bg-slate-900 border border-slate-800 shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/40 to-transparent mix-blend-overlay z-10 pointer-events-none" />
               <Image 
-                src="/team-about.jpeg" 
+                src="/Cristi-AutoTest/team-about.jpeg" 
                 alt="Echipă Cristi AutoTest" 
                 fill 
                 className="object-cover z-0 hover:scale-105 transition-transform duration-700"

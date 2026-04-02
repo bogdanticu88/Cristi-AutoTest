@@ -8,7 +8,7 @@ const services = [
     title: "Electrică Auto & Diagnoză",
     description: "Diagnoză computerizată, reparații alternatoare, electromotoare, senzori și sisteme electrice complete.",
     icon: BatteryCharging,
-    image: "/electrical-service.jpeg",
+    image: "/Cristi-AutoTest/electrical-service.jpeg",
     color: "text-blue-500",
     bg: "bg-blue-500/80",
     border: "border-blue-500/20"
@@ -17,7 +17,7 @@ const services = [
     title: "Service General",
     description: "Revizii tehnice, schimb de ulei și filtre, sistem de frânare, distribuție și mecanică avansată pentru mașina ta.",
     icon: Wrench,
-    image: "/general-service.jpeg",
+    image: "/Cristi-AutoTest/general-service.jpeg",
     color: "text-indigo-400",
     bg: "bg-indigo-500/80",
     border: "border-indigo-500/20"
@@ -26,7 +26,7 @@ const services = [
     title: "Tractări Auto 24/7",
     description: "Serviciu de asistență rutieră și tractări non-stop. Intervenim rapid în Târgu Neamț și împrejurimi.",
     icon: Truck,
-    image: "/tow-service.jpeg",
+    image: "/Cristi-AutoTest/tow-service.jpeg",
     color: "text-rose-400",
     bg: "bg-rose-500/80",
     border: "border-rose-500/20"

@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative min-h-[90vh] flex items-center pt-20 pb-32 overflow-hidden">
       {/* Background Image and Overlays */}
       <div className="absolute inset-0 z-0">
-         <Image src="/hero.jpeg" alt="Cristi AutoTest Background" fill className="object-cover" priority />
+         <Image src="/Cristi-AutoTest/hero.jpeg" alt="Cristi AutoTest Background" fill className="object-cover" priority />
          {/* Dark overlay ensuring text remains completely legible */}
          <div className="absolute inset-0 bg-slate-950/85 bg-gradient-to-tr from-slate-950 via-slate-900/80 to-slate-950/90 z-10" />
          <div className="absolute inset-0 opacity-20 z-10" 
